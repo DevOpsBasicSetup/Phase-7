@@ -99,7 +99,7 @@ Scenario is, I want to connect from MU public instance to NV private instance. (
 	5.4. ssh -i nv.pem user@nv-private-instance-ip
 	5.5. You should able to connect to NV private instance from MU public instance. (You should not able to connect connect to NV private instance from your local terminal (or) another machine which is from other VPC.
 	
-**Try this**
+**Try this*-
 
 1. try to connect from mu private instance to nv private instance. (Its possible)
 
