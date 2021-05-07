@@ -10,7 +10,7 @@
 
 	When VPC created 
 
-		default Network ACL added to VPC.
+		 default Network ACL added to VPC.
 		One new Route Table created.
 		IPv4 CIDR - 10.1.0.0/16
 
