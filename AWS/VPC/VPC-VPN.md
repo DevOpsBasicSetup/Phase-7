@@ -31,7 +31,7 @@
 			(1) all interfaces: 0.0.0.0
 			(2) eth0: 10.1.1.36
 			Please enter the option number from the list above (1-2).
-			> Press Enter for default [2]: yes
+			> Press Enter for default [2]: yes 
 			Error: This is an invalid option.
 
 			Please specify the network interface and IP address to be
