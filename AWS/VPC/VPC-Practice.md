@@ -6,6 +6,20 @@
 
 	* https://aws.amazon.com/vpc/pricing/
 
+#### Terms:
+
+	VPC - Virtual Private Cloud
+	RT  - Route Table
+	IP
+	IPv4
+	IPv6
+	CIDR
+	DNS
+	Subnet (Public, Private)
+	IGW - Internet Gateway
+	
+	
+
 #### Step-1: Create VPC
 
 	When VPC created 
