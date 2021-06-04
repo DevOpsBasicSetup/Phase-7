@@ -18,11 +18,11 @@ Parameters:
 Mappings: 
   RegionMap: 
     us-east-1:
-      RHEL: ami-011b3ccf1bd6db744
-      Ubuntu: ami-0ac019f4fcb7cb7e6
+      RHEL: ami-011b3ccf1bd6db744 #Update AMI with latest one
+      Ubuntu: ami-0ac019f4fcb7cb7e6 #Update AMI with latest one
     ap-south-1:
-      RHEL: ami-5b673c34
-      Ubuntu: ami-0d773a3b7bb2bb1c1
+      RHEL: ami-5b673c34 #Update AMI with latest one
+      Ubuntu: ami-0d773a3b7bb2bb1c1 #Update AMI with latest one
 
 Resources:
   MyEC2Instance:
@@ -43,7 +43,7 @@ Resources:
         Fn::Base64: !Sub | 
           #!/bin/bash
           sudo apt-get update -y && sudo apt-get install docker.io -y
-          docker run -d -p 8080:8080 --name jenkins jenkins
+          sudo docker run -d -p 8080:8080 --name jenkins jenkins
 Outputs:
   ReleaseNote:
     Description: This is your website URL which is running in nginx webserver.
