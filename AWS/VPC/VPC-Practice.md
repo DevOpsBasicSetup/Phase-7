@@ -8,15 +8,18 @@
 
 #### Terms:
 
-	VPC - Virtual Private Cloud
-	RT  - Route Table
-	IP
-	IPv4
-	IPv6
-	CIDR
-	DNS
-	Subnet (Public, Private)
-	IGW - Internet Gateway
+	VPC    - Virtual Private Cloud
+	RT     - Route Table
+	IP     - Internet Protocol 
+	IPv4   - Internet Protocol version 4
+	IPv6   - Internet Protocol version 6
+	CIDR   - Classless Inter-Domain Routing
+	DNS    - Domain Name System
+	Subnet - Public, Private types
+	IGW    - Internet Gateway
+	ACL    - Access Control lists
+	NACL   - Network Access Control lists (https://www.javatpoint.com/aws-nacl-vs-security-group)
+	
 	
 	
 
