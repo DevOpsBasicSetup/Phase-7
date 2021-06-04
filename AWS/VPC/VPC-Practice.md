@@ -19,7 +19,7 @@
 	IGW    - Internet Gateway
 	ACL    - Access Control lists
 	NACL   - Network Access Control lists (https://www.javatpoint.com/aws-nacl-vs-security-group)
-	
+	NAT    - Network Address Translation
 	
 	
 
