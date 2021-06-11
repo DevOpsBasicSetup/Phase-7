@@ -154,9 +154,9 @@ To delete the entire network, follow the below steps,
 
 * Delete EC2 instances.
 
-* Delete NAT
+* Delete NAT (wait for few mins untill its deleted, it will take 2 to 5 mins to delete)
 
-* Delete Elastic IPs
+* Delete Elastic IPs (wait for few mins untill network interface deleted, it will take 2 to 5 mins to delete)
 
 * Delete VPC. (It will automatcally removed SG, IGW, RT, Subnets etc)
 
